@@ -8,8 +8,10 @@ def second_challenge
 
   #code your solution here!
   array = []
-  groceries.each do |food|
-    array.push(food)
+  groceries.each do |types|
+    types.each do |food|
+      array.push(food)
+    end  
   end
   return array
 end
