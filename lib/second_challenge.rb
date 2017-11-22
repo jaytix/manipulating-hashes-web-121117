@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
+  array = []
   groceries.each do |food|
-    puts food
+    array.push(food)
   end
 end
