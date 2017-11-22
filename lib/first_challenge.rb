@@ -1,3 +1,4 @@
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -18,6 +19,7 @@ contacts.each do |person, data|
   if person == "Freddy Mercury"
     data.each do |attribute, value|
       if value == :favorite_icecream_flavors
+        binding.pry
         favorite_icecream_flavors.delete_if {|flavor| flavor == "strawberry"}
       end
     end
