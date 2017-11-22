@@ -278,6 +278,6 @@ touch Gemfile
 # 2. add `gem 'pry'`` to Gemfile
 # 3. bundle
 bundle install
-# 4. `require 'pry'`` in that file
+# 4. `require 'pry'` in that file
 # 5. add `binding.pry` where you want the world to stop
 ```
