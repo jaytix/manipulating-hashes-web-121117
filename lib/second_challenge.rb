@@ -11,4 +11,5 @@ def second_challenge
   groceries.each do |food|
     array.push(food)
   end
+  return array
 end
