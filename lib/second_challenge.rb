@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  array = []
+  groceries.each do |types, food|
+    food.each do |item|
+      array.push(item)
+    end  
+  end
+  array
 end
