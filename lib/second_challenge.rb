@@ -9,9 +9,7 @@ def second_challenge
   #code your solution here!
   array = []
   groceries.each do |types|
-    types.each do |food|
-      array.push(food)
-    end  
+    array.push(types.values)
   end
   return array
 end
